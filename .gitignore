@@ -1,0 +1,56 @@
+# 1C:Enterprise - Бинарные файлы конфигурации и баз данных
+*.cf
+*.cfu
+*.epf
+*.erf
+*.dt
+*.1cd
+*.1cl
+*.1cv8
+*.pfl
+
+# 1C:Enterprise - Логи и временные файлы
+*.log
+*.lgf
+*.lgp
+*.lgd
+*.tmp
+*.bak
+*.old
+
+# 1C:Enterprise - Служебные файлы выгрузки (GitConverter/GitSync)
+*ConfigDumpInfo.xml
+*DumpInfo.xml
+
+# Бинарные макеты и архивы
+*.bin
+*.zip
+*.rar
+*.7z
+
+# OS - Системные файлы
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE и Редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.cursor/
+.claude/
+
+# Среды выполнения и зависимости (Python, Node.js)
+node_modules/
+.venv/
+venv/
+env/
+dist/
+build/
+target/
+
+# Приватные настройки
+.env
+.1c-devbase.bat
